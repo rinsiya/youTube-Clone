@@ -124,13 +124,15 @@ img.profile-pic{
 
 
 .container {
-    height: 600px;   
     background-color: #fff;
-    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
 }
 .left-panel{
-    float: left;
     
+    width: 150px;
    }
 .vertical-menu-item{
     font-family: Roboto, Arial, sans-serif;
@@ -152,7 +154,7 @@ img.profile-pic{
     top: 0;
     margin-top: 60px;
  
-  width: 70px;
+  width: 100px;
   padding: 10px 4px;
   display: flex;
   flex-direction: column;
@@ -164,10 +166,12 @@ img.profile-pic{
         float: left;
 }
 .right-panel{
-  width: 92%;
+  
   padding:0;
-  height: 900px;
-  margin: 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: fit-content;
   background-color: #fff;
 }
 .horizontal-menu {
@@ -215,7 +219,7 @@ img.profile-pic{
   gap: 0px;        
   justify-content: center; 
   align-items: flex-start;
-  position: relative;
+ 
 }
 .news-panel1{
        margin-top: 0px;
@@ -242,11 +246,11 @@ img.profile-pic{
 }
 
 .video-panel2{
-    margin-top: 40px;
+ 
   display: flex;
   justify-content: center; 
   align-items: flex-start;
-  position: relative;
+  
 }
 
 .video-panel2 video,.video-panel2 img {
@@ -295,8 +299,6 @@ background-color: #eee3ff;
 }
 a{
     text-decoration: none;
-    margin:0;
-    padding:0;
 }
 .channel-logo img {
     width: 35px;
@@ -379,7 +381,7 @@ a{
 
     font-size: 20px;
     font-weight: 900;
-    padding: 20px;
+    padding: 0px 20px;
    
 }
 .news-panel-title{

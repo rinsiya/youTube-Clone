@@ -295,6 +295,8 @@ background-color: #eee3ff;
 }
 a{
     text-decoration: none;
+    margin:0;
+    padding:0;
 }
 .channel-logo img {
     width: 35px;
